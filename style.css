@@ -1,47 +1,44 @@
-/* #cat1{
-    background-color: blue;
-    color: white;
-    }
-#cat2{
-    background-color: red;
-    color: yellow;
+.login{
+    border: none;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(237,237,237);
+    color:black;
+    border-radius: 5px;
+    background-size: cover; 
+    background-position: center;
+    overflow: hidden;
 }
-
-p:hover{
-background-color: blue;
-color: orange;
+form{
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
 }
-h1:hover{
-color: cyan;
-} */
-
-
-/* #cat1 >.cat{
-background-color: blue;
-color: orange;
-} */
-/* #cat1 p + .dog{
-background-color: blue;
-color: orange;
-} */
-
-
-
-#test3{
-width: 250px;
-background-color: aqua;
-display: flex;
+h1{
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 60px;
 }
-#test3{
-justify-content: flex-end;
-align-items: flex-end;
+label{
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-left: 10px;
 }
-div p{
-border-width: 5px;
-border-color: blue;
-border-style: solid;
-} 
-
-
-
-  
+input{
+    height:40px;
+    padding:0px 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+button {
+    background: rgb(75,107,251);
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    color:white;
+}
