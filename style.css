@@ -1,0 +1,47 @@
+/* #cat1{
+    background-color: blue;
+    color: white;
+    }
+#cat2{
+    background-color: red;
+    color: yellow;
+}
+
+p:hover{
+background-color: blue;
+color: orange;
+}
+h1:hover{
+color: cyan;
+} */
+
+
+/* #cat1 >.cat{
+background-color: blue;
+color: orange;
+} */
+/* #cat1 p + .dog{
+background-color: blue;
+color: orange;
+} */
+
+
+
+#test3{
+width: 250px;
+background-color: aqua;
+display: flex;
+}
+#test3{
+justify-content: flex-end;
+align-items: flex-end;
+}
+div p{
+border-width: 5px;
+border-color: blue;
+border-style: solid;
+} 
+
+
+
+  
