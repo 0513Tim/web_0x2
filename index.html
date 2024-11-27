@@ -15,17 +15,9 @@
             <label for="password">Password</label>
             <input type="password" id="password" required>
             <button type="submit">Submit</button>
+            <a href="register.html">register</a>
         </form>
     </div>
-    <script>
-        function handleSubmit(event) {
-            event.preventDefault();
-            const username = document.getElementById('username').value;
-            const password = document.getElementById('password').value;
-            sessionStorage.setItem('username', username);
-            sessionStorage.setItem('password', password);
-            window.location.href = 'welcome.html';
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
