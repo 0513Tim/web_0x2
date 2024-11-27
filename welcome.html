@@ -11,8 +11,10 @@
         const password = sessionStorage.getItem('password');
         if (username && password) {
             document.body.innerHTML = `
-                <h1>Welcome, ${username}!</h1>
+                <h1>Hello, ${username}!</h1>
                 <p>Your password is: ${password}</p>
+                <a href = "https://youtu.be/dQw4w9WgXcQ?si=D4JWoTL0sf_mXHXJ">rick roll</a>
+                <a href = "https://youtu.be/KN3IemyqJJw?si=afTKJVG19AuqTqjp">Happy cat</a>
             `;
         } else {
             document.body.innerHTML = `
