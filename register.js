@@ -8,6 +8,6 @@ function handleSubmit(event){
     sessionStorage.setItem('password', password);
     // console.log(username);
     // console.log(password);  
-    window.location.href = 'login.html';
+    window.location.href = 'index.html';
     
 }
