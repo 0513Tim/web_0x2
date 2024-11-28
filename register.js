@@ -11,3 +11,5 @@ function handleSubmit(event){
     window.location.href = 'index.html';
     
 }
+const form = document.getElementById('login');
+form.addEventListener('submit',handleSubmit)
