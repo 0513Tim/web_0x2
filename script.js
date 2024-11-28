@@ -17,3 +17,5 @@ function handleSubmit(event) {
         alert("帳號不存在，請先註冊");
     }
 }
+const form = document.getElementById('login');
+form.addEventListener('submit',handleSubmit)
