@@ -8,8 +8,8 @@ function handleSubmit(event) {
     const us = sessionStorage.getItem('username');
     const ps = sessionStorage.getItem('password');
     // 擷取 cookie 的資料
-    const uc = document.cookie.split(";")[0].slice(9);
-    const pc = document.cookie.split(";")[1].slice(10);
+    // const uc = document.cookie.split(";")[0].slice(9);
+    // const pc = document.cookie.split(";")[1].slice(10);
     // 獲得輸入的值
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
