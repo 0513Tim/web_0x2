@@ -7,14 +7,24 @@
 </head>
 <body>
     <script>
-        const username = sessionStorage.getItem('username');
-        const password = sessionStorage.getItem('password');
-        if (username && password) {
+        // 擷取 localStorage 的資料
+        // const ul = localStorage.getItem('username');
+        // const pl = localStorage.getItem('password');
+        // 擷取 sessionStorage 的資料
+        const us = sessionStorage.getItem('username');
+        const ps = sessionStorage.getItem('password');
+        // 擷取 cookie 的資料
+        // const uc = document.cookie.split(";")[0].slice(9);
+        // const pc = document.cookie.split(";")[1].slice(10);
+        // const username = sessionStorage.getItem('username');
+        // const password = sessionStorage.getItem('password'); 
+        if (us && ps) {
             document.body.innerHTML = `
-                <h1>Hello, ${username}!</h1>
-                <p>Your password is: ${password}</p>
+                <h1>Hello, ${us}!</h1>
+                <p>Your password is: ${ps}</p>
                 <a href = "https://youtu.be/dQw4w9WgXcQ?si=D4JWoTL0sf_mXHXJ">rick roll</a>
                 <a href = "https://youtu.be/KN3IemyqJJw?si=afTKJVG19AuqTqjp">Happy cat</a>
+                <a href = "index.html"><br><br>登出</a> 
             `;
         } else {
             document.body.innerHTML = `
